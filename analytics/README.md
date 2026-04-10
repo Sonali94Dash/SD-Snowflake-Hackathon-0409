@@ -14,3 +14,5 @@ Streamlit dashboard that calculates attrition risk scores and classifies employe
 1. Create table: `HACKATHON_DB.ANALYTICS.HR_ATTRITION`
 2. Create Streamlit app, add plotly package, run the dashboard
 3. <img width="1722" height="773" alt="image" src="https://github.com/user-attachments/assets/dff4bc9f-657c-401d-a04f-59acee3a1124" />
+<img width="1817" height="827" alt="image" src="https://github.com/user-attachments/assets/f01bce2b-6a92-435e-8144-b9a87803ae17" />
+
