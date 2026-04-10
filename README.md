@@ -1,5 +1,15 @@
 # SD-Snowflake-Hackathon-0409
 
+## Submissions
+
+| Prompt | Folder | Description |
+|--------|--------|-------------|
+| ML Prompt 02 | Root (`/`) | Customer Churn Classification with SHAP |
+| AI Prompt 02 | `cortex-bi/` | Conversational BI with Cortex Analyst |
+| Analytics 01 | `analytics/` | The Invisible Workforce Signal |
+
+# SD-Snowflake-Hackathon-0409
+
 ## Customer Churn Classification with SHAP Explainability
 **Built by Sonali Dash** | CSEGSA Hackathon 2026
 
