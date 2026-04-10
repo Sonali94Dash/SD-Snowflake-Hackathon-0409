@@ -155,7 +155,7 @@ USE SCHEMA HACKATHON_DB.ML_CHURN;
 - **ML Modeling API** — `snowflake.ml.modeling.ensemble.GradientBoostingClassifier`
 - **Model Registry** — Versioned model logging and governance
 - **SHAP (TreeExplainer)** — Global and per-customer explainability
-- **Streamlit in Snowflake** — Interactive dashboard with 3 panels
+- **Streamlit in Snowflake** — Interactive dashboard with 3 panels https://app.snowflake.com/streamlit/us-east-1/mfc26167/#/apps/6oha2hfb24uhlaaykt5i
 
 ### Security & Governance
 - All data stays within Snowflake — no external data movement
