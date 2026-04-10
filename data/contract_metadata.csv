@@ -1,0 +1,501 @@
+contract_id,vendor_name,category,contract_value_usd,start_date,end_date,governing_law,liability_cap_usd,auto_renews,risk_flags,risk_level,owner_team
+CTR0001,BrightPath Inc,Data & Analytics,1395301.7,2024-08-23,2026-08-13,TX,3107805.98,Yes,High Liability; High Value,High,Marketing
+CTR0002,TrueData Co,Hardware,1014748.85,2025-05-18,2029-04-27,DE,2072397.62,Yes,High Liability; High Value,High,Finance
+CTR0003,Clearline Ltd,SaaS,1084252.49,2025-03-01,2029-02-08,IL,2516254.87,No,High Liability; High Value,High,Finance
+CTR0004,NovaSys,Data & Analytics,1347952.16,2025-03-07,2028-02-20,GA,3836601.28,No,High Liability; High Value,High,Design
+CTR0005,NovaSys,SaaS,1344643.74,2023-09-11,2027-08-21,GA,3106190.65,Yes,High Liability; High Value,High,Design
+CTR0006,Apex Consulting,Data & Analytics,468199.36,2022-06-20,2023-06-15,DE,644857.27,No,Expiring Soon,Medium,Marketing
+CTR0007,DataBridge,Hardware,1252903.92,2022-11-01,2023-10-27,CA,2431152.83,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0008,Meridian Systems,NDA,1068495.63,2024-02-03,2027-01-18,DE,2610562.56,No,High Liability; High Value,High,People
+CTR0009,Clearline Ltd,SaaS,1086230.93,2023-07-12,2025-07-01,IL,1208912.24,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0010,Summit Analytics,MSA,1688939.85,2022-08-26,2023-08-21,WA,4042756.32,No,Expiring Soon; High Liability; High Value,High,People
+CTR0011,Vertex Solutions,NDA,653857.29,2022-10-30,2026-10-09,DE,1413192.48,Yes,High Liability; High Value,High,Operations
+CTR0012,Lattice Ops,SaaS,614415.85,2024-03-09,2028-02-17,DE,761856.01,Yes,High Value,Medium,Product
+CTR0013,Acme Corp,MSA,1982476.92,2023-06-25,2024-06-19,MA,4934267.91,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0014,Meridian Systems,Professional Services,1794713.41,2022-08-09,2023-08-04,WA,2684950.5,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0015,Summit Analytics,SaaS,771954.96,2023-04-27,2025-04-16,MA,1965492.57,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0016,Summit Analytics,SaaS,1003667.54,2022-09-04,2026-08-14,GA,2336382.27,No,High Liability; High Value,High,People
+CTR0017,Clearline Ltd,Consulting,1745665.71,2023-12-11,2026-11-25,DE,3144662.58,Yes,High Liability; High Value,High,Marketing
+CTR0018,Clearline Ltd,Hardware,1070007.49,2025-05-18,2028-05-02,CO,2342203.33,Yes,High Liability; High Value,High,Engineering
+CTR0019,DataBridge,NDA,1218541.48,2024-12-10,2025-12-05,CO,1387848.78,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0020,Nexus Partners,Professional Services,1207741.7,2025-01-12,2026-01-07,TX,2902250.13,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0021,TrueData Co,Data & Analytics,781767.17,2025-04-21,2027-04-11,DE,1383415.78,Yes,High Liability; High Value,High,Engineering
+CTR0022,Clearline Ltd,Consulting,10813.73,2024-07-04,2027-06-19,FL,23010.02,Yes,None,Low,Engineering
+CTR0023,Orion Global,MSA,125065.68,2024-11-22,2025-11-17,TX,236978.45,Yes,Expiring Soon; Auto-Renew Risk,High,Design
+CTR0024,Meridian Systems,MSA,200412.15,2024-02-09,2027-01-24,NY,522877.01,No,None,Low,Engineering
+CTR0025,DataBridge,MSA,659680.12,2025-01-11,2028-12-21,WA,1615323.34,No,High Liability; High Value,High,Marketing
+CTR0026,Nexus Partners,Data & Analytics,1189929.56,2024-12-27,2026-12-17,FL,1392441.77,No,High Liability; High Value,High,Marketing
+CTR0027,Lattice Ops,Data & Analytics,515246.83,2023-06-09,2025-05-29,NY,991564.52,Yes,Expiring Soon; Auto-Renew Risk; High Value,High,Operations
+CTR0028,BrightPath Inc,Consulting,19414.83,2024-11-25,2025-11-20,DE,43789.21,No,Expiring Soon,Medium,Engineering
+CTR0029,NovaSys,NDA,84434.1,2022-06-15,2026-05-25,MA,222140.91,Yes,Auto-Renew Risk,Medium,Product
+CTR0030,Pinnacle Tech,Hardware,502912.76,2024-05-17,2026-05-07,MA,1225456.13,No,Expiring Soon; High Liability; High Value,High,People
+CTR0031,Meridian Systems,SaaS,335002.23,2022-06-23,2023-06-18,IL,629720.74,No,Expiring Soon,Medium,People
+CTR0032,Clearline Ltd,Hardware,902439.8,2025-01-22,2026-01-17,NY,1810050.77,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0033,Meridian Systems,SaaS,1567463.7,2024-08-17,2028-07-27,WA,4064329.96,Yes,High Liability; High Value,High,Finance
+CTR0034,Clearline Ltd,Professional Services,1763984.43,2023-12-08,2027-11-17,IL,2877294.0,Yes,High Liability; High Value,High,Sales
+CTR0035,Nexus Partners,SaaS,1595864.05,2023-12-18,2026-12-02,CO,3001635.28,No,High Liability; High Value,High,People
+CTR0036,Acme Corp,SaaS,1940763.61,2023-06-05,2024-05-30,CO,2199729.86,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0037,BrightPath Inc,Consulting,625966.17,2023-09-14,2026-08-29,IL,1341401.57,Yes,High Liability; High Value,High,People
+CTR0038,Lattice Ops,Data & Analytics,496096.37,2024-05-12,2027-04-27,DE,1392307.72,No,High Liability,Medium,Design
+CTR0039,TrueData Co,NDA,1801853.94,2022-04-09,2026-03-19,IL,3208649.13,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0040,Orion Global,SaaS,367563.28,2023-06-10,2026-05-25,IL,1078697.84,Yes,High Liability; Auto-Renew Risk,High,Design
+CTR0041,NovaSys,Data & Analytics,23064.66,2025-04-30,2029-04-09,MA,65552.85,No,None,Low,People
+CTR0042,Vertex Solutions,NDA,740694.32,2022-09-26,2025-09-10,MA,827191.89,No,Expiring Soon; High Value,High,Operations
+CTR0043,Acme Corp,Consulting,90028.11,2023-04-04,2026-03-19,MA,233610.38,No,Expiring Soon,Medium,People
+CTR0044,Vertex Solutions,NDA,1983630.65,2025-03-10,2027-02-28,NY,3806669.72,No,High Liability; High Value,High,Design
+CTR0045,BrightPath Inc,NDA,364519.32,2023-04-14,2026-03-29,GA,670365.21,Yes,Expiring Soon; Auto-Renew Risk,High,Operations
+CTR0046,NovaSys,Professional Services,1012345.24,2023-12-05,2026-11-19,FL,2708772.55,Yes,High Liability; High Value,High,Legal
+CTR0047,BrightPath Inc,SaaS,1875822.47,2023-11-19,2026-11-03,MA,4971214.12,Yes,High Liability; High Value,High,Legal
+CTR0048,Meridian Systems,Professional Services,1289067.88,2023-02-19,2025-02-08,IL,3627704.3,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0049,Acme Corp,NDA,1660863.86,2022-03-30,2025-03-14,WA,4548579.79,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0050,Clearline Ltd,Hardware,444060.87,2022-07-12,2025-06-26,FL,544589.94,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0051,ClearView AI,Hardware,1701016.09,2023-03-27,2026-03-11,DE,2305575.35,No,Expiring Soon; High Liability; High Value,High,People
+CTR0052,Clearline Ltd,Professional Services,1088138.26,2024-11-08,2027-10-24,FL,3119186.23,Yes,High Liability; High Value,High,Design
+CTR0053,Pinnacle Tech,Hardware,692521.12,2022-11-05,2023-10-31,IL,1828940.67,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0054,Vertex Solutions,Consulting,771076.28,2022-05-10,2026-04-19,CA,1772649.6,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0055,NovaSys,NDA,870916.8,2022-11-26,2023-11-21,CA,2581653.89,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0056,Clearline Ltd,Hardware,1664477.05,2022-11-16,2023-11-11,GA,4406329.05,No,Expiring Soon; High Liability; High Value,High,People
+CTR0057,Clearline Ltd,Consulting,205358.4,2022-10-02,2025-09-16,DE,248008.31,Yes,Expiring Soon; Auto-Renew Risk,High,Engineering
+CTR0058,ClearView AI,Hardware,1152212.25,2022-06-09,2026-05-19,IL,1319022.75,No,High Liability; High Value,High,Marketing
+CTR0059,Vertex Solutions,Professional Services,1475058.42,2024-08-27,2028-08-06,IL,4212584.21,No,High Liability; High Value,High,Operations
+CTR0060,Clearline Ltd,SaaS,209323.96,2024-07-13,2025-07-08,DE,260751.09,Yes,Expiring Soon; Auto-Renew Risk,High,Marketing
+CTR0061,DataBridge,Hardware,248671.77,2024-09-09,2027-08-25,FL,735825.87,No,None,Low,Design
+CTR0062,BrightPath Inc,Professional Services,1988913.98,2022-12-20,2024-12-09,WA,2177096.31,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0063,ClearView AI,Professional Services,187664.69,2023-04-19,2027-03-29,DE,559741.45,No,None,Low,Legal
+CTR0064,Apex Consulting,Consulting,1623127.72,2023-12-30,2024-12-24,NY,3644138.08,No,Expiring Soon; High Liability; High Value,High,People
+CTR0065,Meridian Systems,NDA,636880.59,2022-05-16,2023-05-11,CA,1857872.28,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0066,BrightPath Inc,NDA,1452243.19,2025-03-30,2027-03-20,WA,2676986.06,No,High Liability; High Value,High,Engineering
+CTR0067,NovaSys,SaaS,999833.35,2022-08-27,2023-08-22,CA,2518490.39,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0068,Meridian Systems,SaaS,1911723.32,2022-08-23,2023-08-18,CA,4840408.4,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0069,Lattice Ops,NDA,626123.15,2023-01-16,2024-01-11,MA,1052399.53,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0070,ClearView AI,Professional Services,46633.47,2023-12-11,2024-12-05,GA,97772.51,No,Expiring Soon,Medium,Finance
+CTR0071,Apex Consulting,Data & Analytics,1546175.18,2022-10-05,2026-09-14,CO,3954670.67,Yes,High Liability; High Value,High,Finance
+CTR0072,Pinnacle Tech,Hardware,337216.6,2025-05-14,2026-05-09,WA,869504.05,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0073,Orion Global,Hardware,985973.93,2025-01-19,2026-01-14,GA,2952700.1,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0074,NovaSys,MSA,430610.02,2023-10-07,2026-09-21,CO,734196.83,Yes,None,Low,Sales
+CTR0075,Clearline Ltd,Hardware,1526317.77,2024-05-17,2026-05-07,DE,2033637.36,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0076,Pinnacle Tech,Consulting,1898522.45,2023-06-20,2024-06-14,GA,3440919.66,No,Expiring Soon; High Liability; High Value,High,People
+CTR0077,ClearView AI,Consulting,294273.23,2025-02-16,2027-02-06,WA,419917.79,No,None,Low,Design
+CTR0078,Pinnacle Tech,MSA,910927.37,2023-08-17,2026-08-01,WA,2376303.93,No,High Liability; High Value,High,Marketing
+CTR0079,ClearView AI,Professional Services,605920.58,2024-03-20,2027-03-05,TX,1004095.48,No,High Liability; High Value,High,Marketing
+CTR0080,TrueData Co,Professional Services,1243176.5,2024-08-07,2026-07-28,FL,2701236.13,No,High Liability; High Value,High,Engineering
+CTR0081,Apex Consulting,Hardware,442737.85,2024-09-09,2025-09-04,DE,1141643.81,Yes,Expiring Soon; High Liability; Auto-Renew Risk,High,IT
+CTR0082,Vertex Solutions,SaaS,809424.41,2022-09-23,2026-09-02,NY,1265331.44,No,High Liability; High Value,High,Design
+CTR0083,Lattice Ops,Hardware,531544.34,2023-12-22,2026-12-06,CO,1318005.22,Yes,High Liability; High Value,High,People
+CTR0084,Orion Global,Data & Analytics,349719.31,2023-03-02,2027-02-09,GA,1023864.04,No,High Liability,Medium,Legal
+CTR0085,Pinnacle Tech,Hardware,1125465.96,2022-05-04,2026-04-13,FL,1668383.74,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0086,Meridian Systems,MSA,1430271.49,2022-11-26,2023-11-21,TX,2413329.07,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0087,Apex Consulting,MSA,1100265.19,2022-06-28,2024-06-17,DE,1448392.0,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0088,DataBridge,Hardware,476279.2,2022-01-27,2026-01-06,CA,952903.76,No,Expiring Soon,Medium,Engineering
+CTR0089,Orion Global,NDA,694709.43,2024-03-12,2025-03-07,NY,1646026.16,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0090,Apex Consulting,SaaS,1540267.98,2023-11-15,2027-10-25,GA,3495177.6,Yes,High Liability; High Value,High,Operations
+CTR0091,Meridian Systems,Data & Analytics,1751712.78,2022-11-28,2026-11-07,MA,2372350.02,Yes,High Liability; High Value,High,People
+CTR0092,Summit Analytics,SaaS,1744132.06,2023-09-17,2026-09-01,WA,3172697.34,No,High Liability; High Value,High,Design
+CTR0093,TrueData Co,Hardware,411185.73,2024-07-15,2027-06-30,FL,439946.93,No,None,Low,Legal
+CTR0094,ClearView AI,SaaS,646284.06,2023-05-15,2026-04-29,NY,1013267.74,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0095,Vertex Solutions,MSA,1815515.29,2022-10-14,2023-10-09,TX,5352545.73,No,Expiring Soon; High Liability; High Value,High,People
+CTR0096,Summit Analytics,SaaS,1919482.23,2022-09-20,2023-09-15,MA,5282402.17,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0097,BrightPath Inc,Professional Services,1994411.31,2023-04-25,2024-04-19,CA,4792180.08,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0098,Meridian Systems,SaaS,856313.68,2022-05-22,2026-05-01,FL,2424389.93,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0099,Acme Corp,NDA,1107629.82,2023-02-17,2025-02-06,WA,1945329.24,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0100,BrightPath Inc,MSA,978039.17,2022-01-15,2025-12-25,FL,1619128.87,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0101,DataBridge,SaaS,1184492.52,2025-05-09,2028-04-23,DE,2915563.52,Yes,High Liability; High Value,High,Marketing
+CTR0102,Nexus Partners,Consulting,240739.24,2023-01-22,2024-01-17,DE,403527.0,No,Expiring Soon,Medium,Sales
+CTR0103,Apex Consulting,NDA,1165064.44,2024-03-07,2028-02-15,IL,2248595.98,No,High Liability; High Value,High,Operations
+CTR0104,BrightPath Inc,MSA,50626.61,2023-09-04,2026-08-19,NY,114399.41,No,None,Low,People
+CTR0105,Apex Consulting,Professional Services,1819915.36,2022-06-01,2025-05-16,CA,3022814.78,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0106,Meridian Systems,Data & Analytics,1961472.68,2024-02-07,2027-01-22,MA,2599834.38,No,High Liability; High Value,High,Marketing
+CTR0107,Acme Corp,Data & Analytics,6591.99,2023-12-22,2026-12-06,IL,11700.9,No,None,Low,Marketing
+CTR0108,Pinnacle Tech,Professional Services,1455899.55,2024-12-06,2026-11-26,MA,1612501.79,Yes,High Liability; High Value,High,Sales
+CTR0109,Summit Analytics,NDA,1921901.7,2025-03-30,2027-03-20,MA,4151192.28,No,High Liability; High Value,High,IT
+CTR0110,Pinnacle Tech,Data & Analytics,67128.63,2022-01-30,2023-01-25,NY,152036.81,No,Expiring Soon,Medium,Marketing
+CTR0111,TrueData Co,Consulting,1469848.23,2023-08-07,2026-07-22,DE,1563886.06,Yes,High Liability; High Value,High,Operations
+CTR0112,ClearView AI,Data & Analytics,1736928.58,2022-07-31,2025-07-15,DE,4395708.36,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0113,Apex Consulting,Consulting,1277777.77,2022-02-06,2026-01-16,NY,2546870.48,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0114,Apex Consulting,Data & Analytics,110623.05,2022-04-03,2025-03-18,CA,254395.94,No,Expiring Soon,Medium,Product
+CTR0115,Pinnacle Tech,SaaS,1206193.56,2025-03-13,2027-03-03,WA,2274503.97,Yes,High Liability; High Value,High,Marketing
+CTR0116,Meridian Systems,Consulting,1877006.84,2025-04-14,2026-04-09,IL,4776211.95,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0117,Clearline Ltd,Consulting,1114478.41,2022-12-16,2025-11-30,CA,2111081.38,No,Expiring Soon; High Liability; High Value,High,People
+CTR0118,Lattice Ops,NDA,1935825.54,2023-09-22,2027-09-01,CO,2943529.01,No,High Liability; High Value,High,Marketing
+CTR0119,NovaSys,Professional Services,1397768.48,2022-06-08,2025-05-23,CO,2517609.93,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0120,Clearline Ltd,Consulting,1258963.54,2024-07-23,2025-07-18,CA,2261009.95,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0121,NovaSys,NDA,463365.92,2024-04-06,2026-03-27,CO,1186863.08,No,Expiring Soon; High Liability,High,Sales
+CTR0122,Clearline Ltd,Data & Analytics,1310670.29,2022-07-29,2025-07-13,MA,3434959.11,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0123,DataBridge,SaaS,983213.51,2024-08-14,2028-07-24,FL,2638425.38,No,High Liability; High Value,High,Legal
+CTR0124,Meridian Systems,MSA,1835682.67,2024-06-29,2027-06-14,IL,4534081.3,No,High Liability; High Value,High,Operations
+CTR0125,NovaSys,SaaS,207152.13,2023-02-26,2027-02-05,TX,330011.5,No,None,Low,Operations
+CTR0126,Apex Consulting,Hardware,1177370.91,2024-11-26,2027-11-11,TX,2052219.76,Yes,High Liability; High Value,High,Product
+CTR0127,ClearView AI,Hardware,1046696.55,2022-08-29,2026-08-08,FL,1676396.48,Yes,High Liability; High Value,High,Legal
+CTR0128,Acme Corp,Data & Analytics,350709.51,2023-07-13,2025-07-02,TX,412296.78,Yes,Expiring Soon; Auto-Renew Risk,High,Finance
+CTR0129,Acme Corp,Hardware,1388784.78,2025-02-14,2027-02-04,TX,3569029.66,Yes,High Liability; High Value,High,People
+CTR0130,Orion Global,Data & Analytics,95664.72,2022-07-03,2024-06-22,WA,111289.79,No,Expiring Soon,Medium,Sales
+CTR0131,Meridian Systems,SaaS,1990522.61,2025-02-21,2026-02-16,CO,4723686.88,No,Expiring Soon; High Liability; High Value,High,Sales
+CTR0132,DataBridge,Professional Services,1558518.83,2022-09-23,2024-09-12,WA,1734613.73,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0133,TrueData Co,MSA,1712403.08,2022-11-12,2025-10-27,CA,3348903.59,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0134,TrueData Co,NDA,925378.81,2022-03-30,2024-03-19,WA,2116819.46,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0135,Acme Corp,Consulting,331350.19,2024-04-19,2027-04-04,GA,513269.18,No,None,Low,Finance
+CTR0136,Nexus Partners,NDA,1260434.07,2024-03-01,2025-02-24,FL,3337361.47,No,Expiring Soon; High Liability; High Value,High,Design
+CTR0137,Lattice Ops,Professional Services,970163.47,2022-09-27,2023-09-22,NY,2326466.36,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0138,Vertex Solutions,Consulting,1952822.25,2022-08-26,2026-08-05,DE,3939910.02,No,High Liability; High Value,High,Sales
+CTR0139,Pinnacle Tech,Data & Analytics,465009.0,2023-07-21,2026-07-05,CA,873721.05,No,None,Low,Finance
+CTR0140,Pinnacle Tech,NDA,1377967.86,2025-03-12,2026-03-07,CO,4008258.51,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0141,Vertex Solutions,NDA,560612.16,2022-10-11,2025-09-25,MA,1607123.89,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0142,NovaSys,MSA,1106601.61,2022-09-28,2026-09-07,WA,3115380.8,No,High Liability; High Value,High,Sales
+CTR0143,Apex Consulting,Hardware,531628.35,2024-07-26,2025-07-21,DE,1016148.1,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0144,Lattice Ops,SaaS,804591.34,2025-05-25,2027-05-15,MA,1831253.67,No,High Liability; High Value,High,Finance
+CTR0145,Summit Analytics,Consulting,27700.55,2023-05-26,2025-05-15,NY,65539.54,Yes,Expiring Soon; Auto-Renew Risk,High,Product
+CTR0146,Nexus Partners,Consulting,845384.25,2025-01-03,2025-12-29,WA,1659865.18,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0147,BrightPath Inc,Professional Services,14509.06,2023-10-05,2025-09-24,TX,18787.61,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0148,Meridian Systems,Data & Analytics,800449.55,2025-01-26,2026-01-21,MA,833874.2,No,Expiring Soon; High Value,High,Legal
+CTR0149,BrightPath Inc,Hardware,459152.14,2022-12-24,2024-12-13,WA,913607.34,Yes,Expiring Soon; Auto-Renew Risk,High,Sales
+CTR0150,Summit Analytics,Hardware,1700070.13,2022-05-27,2026-05-06,MA,3453694.98,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0151,Pinnacle Tech,Professional Services,1981625.75,2023-07-10,2025-06-29,NY,2631922.15,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0152,Pinnacle Tech,SaaS,243325.7,2024-05-20,2028-04-29,CA,527385.26,No,None,Low,People
+CTR0153,Orion Global,Professional Services,397630.07,2024-11-08,2028-10-18,DE,1142539.23,Yes,High Liability,Medium,Marketing
+CTR0154,Clearline Ltd,Data & Analytics,1559389.68,2023-01-01,2023-12-27,WA,2634556.68,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0155,Apex Consulting,MSA,958762.07,2022-09-26,2024-09-15,CO,2328676.13,No,Expiring Soon; High Liability; High Value,High,Design
+CTR0156,Summit Analytics,Consulting,1545682.0,2024-10-05,2027-09-20,IL,2056684.09,Yes,High Liability; High Value,High,Product
+CTR0157,Pinnacle Tech,Consulting,440664.64,2023-02-15,2024-02-10,CA,663699.05,No,Expiring Soon,Medium,Legal
+CTR0158,Nexus Partners,Data & Analytics,1693987.05,2024-06-15,2027-05-31,CA,2185438.83,Yes,High Liability; High Value,High,Engineering
+CTR0159,TrueData Co,Professional Services,8928.33,2025-02-01,2027-01-22,FL,25908.39,No,None,Low,Operations
+CTR0160,TrueData Co,NDA,1908826.82,2024-09-16,2027-09-01,TX,3266876.77,No,High Liability; High Value,High,Marketing
+CTR0161,Orion Global,MSA,456439.37,2024-08-16,2026-08-06,DE,759876.67,Yes,None,Low,Design
+CTR0162,DataBridge,Data & Analytics,497057.19,2022-03-18,2024-03-07,CA,1216166.71,No,Expiring Soon; High Liability,High,Operations
+CTR0163,Orion Global,MSA,1359693.12,2025-05-01,2028-04-15,NY,2606525.27,Yes,High Liability; High Value,High,IT
+CTR0164,BrightPath Inc,MSA,1487555.07,2022-09-03,2024-08-23,FL,4169562.91,No,Expiring Soon; High Liability; High Value,High,Sales
+CTR0165,Clearline Ltd,Professional Services,1759195.76,2025-01-12,2026-01-07,NY,4565360.58,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0166,Acme Corp,NDA,856251.59,2024-07-19,2027-07-04,NY,2346260.15,Yes,High Liability; High Value,High,People
+CTR0167,Orion Global,Hardware,131965.59,2024-09-01,2025-08-27,FL,249733.8,No,Expiring Soon,Medium,Product
+CTR0168,Meridian Systems,NDA,499352.82,2023-08-26,2027-08-05,WA,611089.22,No,None,Low,Sales
+CTR0169,Orion Global,Consulting,1572052.45,2023-06-18,2024-06-12,FL,3115666.62,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0170,Meridian Systems,Data & Analytics,473909.11,2024-11-29,2025-11-24,CO,1241731.32,No,Expiring Soon; High Liability,High,Finance
+CTR0171,NovaSys,Professional Services,1956681.28,2023-03-25,2024-03-19,WA,1994669.28,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0172,Summit Analytics,Data & Analytics,1559899.02,2024-09-09,2025-09-04,DE,3765153.17,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0173,Clearline Ltd,Professional Services,1021557.3,2022-04-23,2024-04-12,IL,2770557.61,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0174,DataBridge,Consulting,884839.87,2022-08-04,2024-07-24,CO,1274251.11,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0175,Orion Global,MSA,1543454.44,2023-07-09,2024-07-03,CO,3213829.61,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0176,Summit Analytics,MSA,1286076.95,2022-10-10,2024-09-29,CA,1628620.25,No,Expiring Soon; High Liability; High Value,High,Design
+CTR0177,NovaSys,Professional Services,1765681.33,2022-10-21,2024-10-10,CO,4239589.82,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0178,Apex Consulting,MSA,67300.68,2024-05-09,2026-04-29,FL,195340.65,No,Expiring Soon,Medium,Legal
+CTR0179,Pinnacle Tech,MSA,1087971.81,2022-03-24,2024-03-13,WA,2941009.4,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0180,Clearline Ltd,Data & Analytics,938047.62,2024-09-09,2025-09-04,WA,1650630.34,No,Expiring Soon; High Liability; High Value,High,Sales
+CTR0181,Clearline Ltd,SaaS,244401.03,2025-04-16,2026-04-11,IL,416000.62,Yes,Expiring Soon; Auto-Renew Risk,High,Finance
+CTR0182,Pinnacle Tech,SaaS,649244.02,2024-06-20,2026-06-10,TX,1802127.25,Yes,High Liability; High Value,High,Engineering
+CTR0183,Acme Corp,Data & Analytics,275465.27,2024-12-12,2028-11-21,DE,552672.22,Yes,None,Low,Finance
+CTR0184,BrightPath Inc,NDA,1855342.66,2022-11-27,2026-11-06,IL,5286146.75,Yes,High Liability; High Value,High,People
+CTR0185,Meridian Systems,Professional Services,976870.06,2023-12-06,2025-11-25,TX,2851857.15,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0186,Pinnacle Tech,Data & Analytics,577935.04,2023-06-30,2025-06-19,DE,1419682.38,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0187,Orion Global,Professional Services,881057.75,2024-05-05,2028-04-14,GA,1524922.07,No,High Liability; High Value,High,Product
+CTR0188,ClearView AI,NDA,817747.3,2022-08-13,2025-07-28,IL,1394321.61,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0189,Nexus Partners,Hardware,1229440.82,2023-08-10,2024-08-04,MA,3177842.67,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0190,Summit Analytics,Data & Analytics,192228.29,2024-10-29,2028-10-08,NY,459439.15,No,None,Low,Finance
+CTR0191,DataBridge,NDA,1527748.18,2025-03-02,2026-02-25,CA,2995264.97,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0192,Acme Corp,SaaS,1828583.85,2025-05-07,2026-05-02,CA,5447299.78,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0193,Meridian Systems,Data & Analytics,1083153.52,2024-09-14,2028-08-24,MA,3190318.97,Yes,High Liability; High Value,High,Finance
+CTR0194,Vertex Solutions,Consulting,955815.33,2024-04-16,2026-04-06,CA,1433995.67,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0195,ClearView AI,Professional Services,117817.65,2023-01-16,2025-12-31,CO,239218.62,Yes,Expiring Soon; Auto-Renew Risk,High,Finance
+CTR0196,Clearline Ltd,Data & Analytics,1945735.5,2022-11-26,2026-11-05,IL,2950494.07,No,High Liability; High Value,High,Marketing
+CTR0197,TrueData Co,MSA,1824803.68,2023-08-04,2026-07-19,GA,5281713.05,No,High Liability; High Value,High,Design
+CTR0198,Orion Global,Data & Analytics,568967.21,2022-12-24,2025-12-08,TX,1067355.84,No,Expiring Soon; High Liability; High Value,High,Sales
+CTR0199,TrueData Co,MSA,1851189.17,2022-02-18,2026-01-28,CO,3917318.21,No,Expiring Soon; High Liability; High Value,High,Sales
+CTR0200,Summit Analytics,NDA,1363665.66,2022-09-15,2023-09-10,FL,2388924.96,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0201,Meridian Systems,Hardware,908024.57,2022-12-05,2024-11-24,CO,1063117.67,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0202,BrightPath Inc,MSA,1037990.63,2022-03-02,2026-02-09,TX,2639480.04,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0203,Lattice Ops,Professional Services,1893189.12,2022-06-07,2024-05-27,IL,5462131.69,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0204,BrightPath Inc,NDA,871482.59,2022-08-17,2025-08-01,NY,1002142.01,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0205,Orion Global,Hardware,388030.08,2022-07-29,2024-07-18,DE,713425.16,No,Expiring Soon,Medium,Finance
+CTR0206,Meridian Systems,Consulting,1767293.31,2025-01-13,2027-01-03,TX,3534749.69,Yes,High Liability; High Value,High,Finance
+CTR0207,NovaSys,SaaS,121448.5,2023-12-28,2025-12-17,CO,185907.66,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0208,Nexus Partners,Consulting,311196.23,2022-11-17,2023-11-12,FL,610861.22,No,Expiring Soon,Medium,Product
+CTR0209,TrueData Co,Professional Services,56880.25,2024-11-16,2026-11-06,CO,167401.13,No,None,Low,Sales
+CTR0210,Nexus Partners,Professional Services,1751727.52,2022-04-13,2024-04-02,GA,3417880.47,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0211,Summit Analytics,NDA,609633.09,2023-06-13,2024-06-07,CO,1405821.82,No,Expiring Soon; High Liability; High Value,High,People
+CTR0212,TrueData Co,SaaS,1627239.38,2025-02-13,2028-01-29,MA,1849469.86,Yes,High Liability; High Value,High,Sales
+CTR0213,Acme Corp,MSA,503227.77,2024-05-23,2027-05-08,WA,1019377.88,Yes,High Liability; High Value,High,Marketing
+CTR0214,Acme Corp,Consulting,1508816.93,2024-04-05,2027-03-21,WA,2555891.07,Yes,High Liability; High Value,High,People
+CTR0215,Summit Analytics,Consulting,730338.51,2022-04-07,2026-03-17,CO,985364.19,No,Expiring Soon; High Value,High,Product
+CTR0216,Acme Corp,Data & Analytics,1728147.83,2022-12-04,2024-11-23,IL,4800099.75,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0217,Apex Consulting,Consulting,1235908.68,2022-12-24,2025-12-08,NY,3446723.89,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0218,Vertex Solutions,Hardware,748773.21,2024-08-30,2026-08-20,CA,2066988.78,No,High Liability; High Value,High,Engineering
+CTR0219,BrightPath Inc,NDA,1093993.6,2024-07-16,2027-07-01,GA,1816664.9,No,High Liability; High Value,High,Legal
+CTR0220,Apex Consulting,NDA,1335600.65,2024-02-08,2028-01-18,IL,2725056.87,Yes,High Liability; High Value,High,People
+CTR0221,Summit Analytics,NDA,1089229.57,2024-04-13,2026-04-03,GA,1962055.64,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0222,TrueData Co,Professional Services,920676.28,2022-01-27,2023-01-22,CO,1780118.38,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0223,ClearView AI,SaaS,552073.87,2024-10-20,2028-09-29,WA,568653.65,No,High Value,Medium,Marketing
+CTR0224,Nexus Partners,MSA,55630.45,2023-09-14,2026-08-29,IL,135497.13,Yes,None,Low,Marketing
+CTR0225,Summit Analytics,SaaS,1496178.22,2022-02-09,2025-01-24,WA,2336361.89,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0226,BrightPath Inc,Consulting,1674958.76,2022-09-17,2024-09-06,NY,4063855.09,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0227,Apex Consulting,Data & Analytics,1805778.25,2023-04-25,2026-04-09,WA,2101954.43,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0228,Clearline Ltd,Hardware,833969.48,2024-04-11,2026-04-01,MA,1238703.68,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0229,ClearView AI,Professional Services,16914.49,2022-03-10,2026-02-17,IL,48904.67,No,Expiring Soon,Medium,People
+CTR0230,Apex Consulting,NDA,1214432.64,2024-09-24,2027-09-09,TX,1409676.67,Yes,High Liability; High Value,High,Engineering
+CTR0231,Orion Global,Data & Analytics,656573.5,2025-01-13,2027-12-29,WA,920492.19,Yes,High Value,Medium,Design
+CTR0232,TrueData Co,MSA,1534072.04,2024-03-24,2025-03-19,MA,2828323.47,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0233,Summit Analytics,Professional Services,723522.11,2025-05-24,2029-05-03,GA,1208295.76,No,High Liability; High Value,High,Design
+CTR0234,DataBridge,MSA,854580.49,2024-09-03,2025-08-29,FL,1571147.82,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0235,NovaSys,Professional Services,575233.76,2022-08-03,2026-07-13,NY,923532.57,No,High Value,Medium,Product
+CTR0236,Acme Corp,Consulting,590279.58,2024-07-15,2027-06-30,GA,1134963.0,No,High Liability; High Value,High,Operations
+CTR0237,Lattice Ops,Hardware,1476568.65,2022-03-23,2025-03-07,MA,3107040.97,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0238,TrueData Co,Data & Analytics,1506812.12,2024-04-28,2027-04-13,GA,3673871.68,Yes,High Liability; High Value,High,Marketing
+CTR0239,BrightPath Inc,NDA,1948356.17,2023-09-24,2024-09-18,IL,2224754.34,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0240,BrightPath Inc,Data & Analytics,1827551.82,2024-07-18,2025-07-13,FL,5228243.38,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0241,BrightPath Inc,NDA,1081964.3,2024-04-01,2025-03-27,CO,2861191.27,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0242,Apex Consulting,NDA,513409.99,2022-04-03,2025-03-18,WA,757957.96,Yes,Expiring Soon; Auto-Renew Risk; High Value,High,Operations
+CTR0243,Meridian Systems,MSA,1951023.69,2022-03-22,2026-03-01,DE,3518991.21,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0244,Vertex Solutions,MSA,672788.49,2023-05-04,2027-04-13,MA,1607324.28,Yes,High Liability; High Value,High,Legal
+CTR0245,Pinnacle Tech,Hardware,530524.1,2023-04-10,2024-04-04,WA,794721.78,Yes,Expiring Soon; Auto-Renew Risk; High Value,High,Marketing
+CTR0246,Apex Consulting,Consulting,1005889.59,2025-03-29,2027-03-19,CA,2888760.03,Yes,High Liability; High Value,High,Operations
+CTR0247,Acme Corp,Consulting,647133.55,2024-05-29,2028-05-08,TX,981946.31,No,High Value,Medium,Design
+CTR0248,Acme Corp,SaaS,307553.59,2022-02-13,2023-02-08,CA,637825.22,Yes,Expiring Soon; Auto-Renew Risk,High,Legal
+CTR0249,Pinnacle Tech,MSA,801377.52,2022-12-10,2026-11-19,CA,2162246.02,No,High Liability; High Value,High,IT
+CTR0250,Orion Global,NDA,620339.16,2024-04-11,2027-03-27,NY,1395696.48,Yes,High Liability; High Value,High,Product
+CTR0251,DataBridge,Data & Analytics,12016.78,2024-04-27,2027-04-12,NY,32772.33,No,None,Low,Engineering
+CTR0252,DataBridge,Hardware,270558.09,2022-06-24,2024-06-13,DE,744933.8,Yes,Expiring Soon; Auto-Renew Risk,High,Legal
+CTR0253,Summit Analytics,NDA,1973553.74,2024-07-23,2027-07-08,TX,5842485.29,Yes,High Liability; High Value,High,Product
+CTR0254,Lattice Ops,Professional Services,1816556.77,2024-03-20,2028-02-28,CO,3182473.7,No,High Liability; High Value,High,Legal
+CTR0255,NovaSys,Consulting,223259.63,2023-03-12,2024-03-06,CA,521987.01,No,Expiring Soon,Medium,Product
+CTR0256,Apex Consulting,Hardware,620473.68,2024-08-02,2027-07-18,MA,644956.05,Yes,High Value,Medium,Operations
+CTR0257,NovaSys,MSA,977301.42,2023-06-28,2024-06-22,DE,1609495.57,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0258,Orion Global,Hardware,235012.68,2023-02-24,2025-02-13,CO,384883.16,Yes,Expiring Soon; Auto-Renew Risk,High,Operations
+CTR0259,Orion Global,Data & Analytics,1674866.07,2022-12-21,2023-12-16,DE,2635298.95,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0260,Pinnacle Tech,Consulting,217359.4,2022-08-03,2025-07-18,FL,339166.3,No,Expiring Soon,Medium,Design
+CTR0261,ClearView AI,Consulting,1838042.29,2025-02-20,2027-02-10,DE,2535025.66,No,High Liability; High Value,High,Finance
+CTR0262,Meridian Systems,Consulting,69110.31,2024-06-30,2028-06-09,CO,181375.99,No,None,Low,Operations
+CTR0263,NovaSys,SaaS,735912.5,2023-03-18,2026-03-02,NY,1259586.51,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0264,Vertex Solutions,Professional Services,528782.5,2025-03-06,2026-03-01,IL,1244486.94,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0265,Summit Analytics,Hardware,477070.38,2025-03-27,2028-03-11,WA,484275.14,No,None,Low,Product
+CTR0266,ClearView AI,Hardware,1584248.95,2022-04-29,2025-04-13,IL,3559973.5,No,Expiring Soon; High Liability; High Value,High,Design
+CTR0267,Acme Corp,SaaS,523281.51,2025-03-08,2026-03-03,NY,677978.94,Yes,Expiring Soon; Auto-Renew Risk; High Value,High,Legal
+CTR0268,Acme Corp,Data & Analytics,8280.8,2024-10-29,2028-10-08,FL,15767.32,Yes,None,Low,Sales
+CTR0269,Nexus Partners,SaaS,286675.0,2022-09-27,2023-09-22,WA,812869.16,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0270,Pinnacle Tech,MSA,710575.91,2024-09-20,2028-08-30,WA,825491.55,Yes,High Value,Medium,Operations
+CTR0271,TrueData Co,Consulting,354720.91,2023-10-05,2026-09-19,FL,835516.76,No,None,Low,IT
+CTR0272,Clearline Ltd,Data & Analytics,369714.1,2024-02-25,2026-02-14,WA,826185.89,No,Expiring Soon,Medium,People
+CTR0273,Summit Analytics,NDA,40285.2,2024-07-31,2025-07-26,DE,117908.53,No,Expiring Soon,Medium,Finance
+CTR0274,Clearline Ltd,SaaS,1509349.01,2023-03-20,2027-02-27,FL,4031298.35,No,High Liability; High Value,High,IT
+CTR0275,ClearView AI,MSA,1431291.9,2024-10-05,2026-09-25,CO,2388593.15,Yes,High Liability; High Value,High,Marketing
+CTR0276,Orion Global,Hardware,1753645.37,2022-06-19,2026-05-29,GA,3983151.32,Yes,High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0277,Orion Global,NDA,1044511.17,2022-03-23,2025-03-07,NY,2501983.85,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0278,Vertex Solutions,Data & Analytics,689007.5,2022-12-15,2025-11-29,WA,1441630.33,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0279,DataBridge,Data & Analytics,1395027.26,2023-04-25,2025-04-14,NY,2496144.63,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0280,Apex Consulting,Consulting,611638.23,2024-05-21,2026-05-11,NY,869639.36,Yes,Auto-Renew Risk; High Value,High,Legal
+CTR0281,DataBridge,NDA,523838.96,2022-01-06,2023-01-01,GA,1517963.06,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0282,DataBridge,SaaS,1588933.32,2023-05-25,2024-05-19,MA,4696422.01,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0283,TrueData Co,Data & Analytics,1171719.02,2022-05-07,2024-04-26,TX,1418064.69,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0284,Acme Corp,MSA,436677.03,2023-07-20,2026-07-04,MA,467990.42,Yes,None,Low,Design
+CTR0285,Acme Corp,Consulting,1640794.38,2025-04-18,2027-04-08,CA,1775422.77,No,High Liability; High Value,High,IT
+CTR0286,Pinnacle Tech,Hardware,1010130.97,2024-09-11,2028-08-21,IL,2357544.26,No,High Liability; High Value,High,Sales
+CTR0287,DataBridge,NDA,706329.6,2022-11-15,2024-11-04,MA,1906417.67,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0288,Summit Analytics,Hardware,1387782.3,2023-11-19,2026-11-03,NY,3723313.63,No,High Liability; High Value,High,Finance
+CTR0289,BrightPath Inc,Professional Services,685847.13,2024-10-09,2028-09-18,IL,804404.27,Yes,High Value,Medium,Operations
+CTR0290,NovaSys,Data & Analytics,1221524.49,2024-06-22,2027-06-07,NY,1557730.6,Yes,High Liability; High Value,High,Operations
+CTR0291,Lattice Ops,Professional Services,1228161.15,2024-02-29,2025-02-23,MA,3417471.25,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0292,ClearView AI,Consulting,156050.82,2023-07-17,2027-06-26,DE,245857.0,Yes,None,Low,Marketing
+CTR0293,Clearline Ltd,Hardware,901558.91,2024-07-23,2028-07-02,CA,1298987.09,Yes,High Liability; High Value,High,Design
+CTR0294,NovaSys,Data & Analytics,1423841.56,2023-05-18,2027-04-27,DE,2030807.13,Yes,High Liability; High Value,High,Product
+CTR0295,Apex Consulting,Consulting,412146.07,2023-11-24,2026-11-08,WA,1014971.92,Yes,High Liability,Medium,Product
+CTR0296,DataBridge,Hardware,439300.59,2024-08-16,2028-07-26,MA,1206563.98,No,High Liability,Medium,IT
+CTR0297,Meridian Systems,Hardware,1765547.45,2022-10-20,2026-09-29,FL,3287823.94,No,High Liability; High Value,High,Design
+CTR0298,ClearView AI,Professional Services,693873.47,2025-04-16,2026-04-11,CA,1577560.64,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0299,ClearView AI,Consulting,1998933.25,2024-10-03,2027-09-18,WA,5720680.62,No,High Liability; High Value,High,Finance
+CTR0300,Orion Global,MSA,819427.8,2025-03-06,2027-02-24,CA,1585530.14,Yes,High Liability; High Value,High,Marketing
+CTR0301,DataBridge,Data & Analytics,794677.49,2022-02-18,2025-02-02,IL,952252.6,No,Expiring Soon; High Value,High,People
+CTR0302,Nexus Partners,MSA,1862023.25,2022-03-30,2026-03-09,MA,4865830.84,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0303,NovaSys,SaaS,177356.25,2024-02-20,2025-02-14,GA,374154.09,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0304,Apex Consulting,Consulting,1187409.46,2024-06-16,2026-06-06,NY,3333948.63,Yes,High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0305,BrightPath Inc,Professional Services,1285264.96,2024-11-04,2026-10-25,WA,2200690.32,No,High Liability; High Value,High,Engineering
+CTR0306,Nexus Partners,Data & Analytics,751694.64,2024-03-10,2025-03-05,TX,2069216.79,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0307,Meridian Systems,Hardware,1222155.21,2024-09-13,2028-08-23,NY,2061278.88,Yes,High Liability; High Value,High,Operations
+CTR0308,NovaSys,Consulting,1470210.61,2025-02-03,2027-01-24,GA,3750421.21,No,High Liability; High Value,High,Design
+CTR0309,Lattice Ops,SaaS,1333937.5,2022-01-03,2023-12-24,GA,1795782.34,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0310,Vertex Solutions,SaaS,1900467.25,2022-09-16,2025-08-31,NY,3289524.14,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0311,TrueData Co,Hardware,1019886.22,2023-02-20,2026-02-04,FL,2169684.27,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0312,ClearView AI,Consulting,888503.06,2023-02-23,2024-02-18,CA,2265926.3,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0313,Lattice Ops,MSA,1542869.95,2024-03-20,2026-03-10,FL,1748622.23,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0314,ClearView AI,Hardware,1134878.54,2022-02-03,2023-01-29,CA,2258260.97,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0315,BrightPath Inc,Professional Services,726441.28,2023-09-09,2026-08-24,TX,1001844.93,Yes,High Liability; High Value,High,Marketing
+CTR0316,Meridian Systems,Professional Services,12104.87,2023-08-22,2027-08-01,WA,34637.92,No,None,Low,People
+CTR0317,Orion Global,Hardware,1304321.18,2023-04-29,2026-04-13,CA,3394644.78,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0318,ClearView AI,Consulting,223590.13,2023-06-05,2027-05-15,NY,472473.55,No,None,Low,Design
+CTR0319,Apex Consulting,SaaS,821029.38,2023-07-07,2025-06-26,WA,1953972.45,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0320,Lattice Ops,Data & Analytics,1107854.1,2023-04-25,2026-04-09,NY,1126316.0,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0321,Clearline Ltd,Hardware,1460175.06,2024-06-21,2027-06-06,MA,2472744.92,No,High Liability; High Value,High,Engineering
+CTR0322,BrightPath Inc,Consulting,327423.4,2022-12-29,2024-12-18,CA,798764.63,No,Expiring Soon,Medium,People
+CTR0323,BrightPath Inc,Professional Services,849997.65,2025-02-08,2026-02-03,IL,1587418.14,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0324,DataBridge,Hardware,1503541.07,2025-04-24,2027-04-14,WA,3698982.09,No,High Liability; High Value,High,People
+CTR0325,Meridian Systems,SaaS,814139.33,2025-04-20,2026-04-15,CA,1610020.16,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0326,NovaSys,Professional Services,834688.4,2023-01-29,2024-01-24,GA,2042967.48,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0327,Lattice Ops,Hardware,338321.36,2024-11-28,2027-11-13,NY,638995.79,No,None,Low,Legal
+CTR0328,Pinnacle Tech,Professional Services,678536.48,2024-07-31,2026-07-21,WA,1612666.64,No,High Liability; High Value,High,Operations
+CTR0329,BrightPath Inc,Hardware,335907.15,2024-12-01,2026-11-21,CA,939079.94,Yes,None,Low,Finance
+CTR0330,Pinnacle Tech,Professional Services,526807.54,2024-07-05,2028-06-14,DE,943557.48,Yes,High Value,Medium,Sales
+CTR0331,Apex Consulting,Hardware,443353.84,2024-10-04,2025-09-29,MA,866144.11,Yes,Expiring Soon; Auto-Renew Risk,High,Product
+CTR0332,TrueData Co,Data & Analytics,285066.79,2024-10-02,2027-09-17,NY,389074.01,Yes,None,Low,Engineering
+CTR0333,Vertex Solutions,Professional Services,29359.37,2022-03-10,2025-02-22,CA,38185.06,No,Expiring Soon,Medium,Legal
+CTR0334,DataBridge,Data & Analytics,1282975.81,2025-01-21,2028-12-31,DE,2701996.99,No,High Liability; High Value,High,Engineering
+CTR0335,Vertex Solutions,Professional Services,198468.1,2022-04-22,2024-04-11,MA,461761.4,No,Expiring Soon,Medium,Operations
+CTR0336,Pinnacle Tech,NDA,1133839.52,2024-02-13,2028-01-23,IL,2584984.71,Yes,High Liability; High Value,High,Operations
+CTR0337,Meridian Systems,Data & Analytics,1213482.74,2023-09-15,2024-09-09,TX,2377531.97,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0338,Summit Analytics,Consulting,1603623.4,2023-09-27,2026-09-11,NY,3931286.45,Yes,High Liability; High Value,High,Operations
+CTR0339,Pinnacle Tech,Data & Analytics,383829.91,2024-10-16,2028-09-25,NY,1038996.72,No,High Liability,Medium,Legal
+CTR0340,Meridian Systems,Professional Services,222027.93,2022-07-01,2026-06-10,DE,644008.01,No,None,Low,Sales
+CTR0341,Nexus Partners,Consulting,1208425.84,2023-01-14,2024-01-09,TX,1443834.55,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0342,ClearView AI,Data & Analytics,1213153.94,2022-12-19,2025-12-03,IL,2339891.94,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0343,DataBridge,SaaS,145958.77,2025-03-21,2026-03-16,FL,342879.87,No,Expiring Soon,Medium,Sales
+CTR0344,Summit Analytics,NDA,709966.4,2024-10-08,2028-09-17,WA,2097562.2,No,High Liability; High Value,High,Engineering
+CTR0345,Clearline Ltd,MSA,1607798.01,2024-07-27,2027-07-12,DE,2728199.41,Yes,High Liability; High Value,High,Marketing
+CTR0346,DataBridge,Consulting,1643963.98,2024-04-26,2026-04-16,CO,2354702.51,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0347,Meridian Systems,Consulting,672638.27,2023-11-09,2024-11-03,DE,1388179.49,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0348,TrueData Co,NDA,976442.33,2025-05-01,2028-04-15,FL,1047421.1,No,High Liability; High Value,High,Marketing
+CTR0349,Clearline Ltd,Professional Services,339706.84,2024-06-05,2025-05-31,WA,723279.0,Yes,Expiring Soon; Auto-Renew Risk,High,People
+CTR0350,Pinnacle Tech,MSA,974088.2,2023-10-02,2027-09-11,DE,2104048.42,No,High Liability; High Value,High,Design
+CTR0351,ClearView AI,Data & Analytics,1346129.45,2022-11-03,2025-10-18,WA,3628386.52,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0352,Pinnacle Tech,MSA,1911602.57,2023-04-04,2027-03-14,CA,4792544.03,Yes,High Liability; High Value,High,Legal
+CTR0353,Apex Consulting,NDA,1405082.09,2022-06-22,2023-06-17,WA,3339604.51,No,Expiring Soon; High Liability; High Value,High,Sales
+CTR0354,Orion Global,Professional Services,1668329.84,2024-07-06,2028-06-15,CA,4727515.9,Yes,High Liability; High Value,High,People
+CTR0355,ClearView AI,Hardware,1951450.6,2024-12-25,2025-12-20,TX,3527926.21,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0356,ClearView AI,MSA,1507057.23,2022-10-21,2026-09-30,GA,3008410.74,Yes,High Liability; High Value,High,Engineering
+CTR0357,DataBridge,Hardware,460426.06,2022-08-22,2025-08-06,CA,986681.77,No,Expiring Soon,Medium,Sales
+CTR0358,Pinnacle Tech,Consulting,1168015.37,2022-06-08,2023-06-03,CO,3166651.52,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0359,BrightPath Inc,SaaS,1830701.96,2022-09-06,2023-09-01,WA,2887594.24,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0360,Pinnacle Tech,Data & Analytics,61757.27,2024-06-28,2027-06-13,NY,105959.96,Yes,None,Low,Marketing
+CTR0361,DataBridge,SaaS,1301249.36,2024-10-23,2026-10-13,DE,1379202.78,Yes,High Liability; High Value,High,Product
+CTR0362,Clearline Ltd,SaaS,1817815.74,2023-07-20,2025-07-09,CA,3841281.19,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0363,Pinnacle Tech,Data & Analytics,807025.99,2023-01-03,2025-12-18,NY,2153356.43,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0364,Acme Corp,SaaS,1802683.64,2023-06-16,2027-05-26,IL,3246085.35,Yes,High Liability; High Value,High,IT
+CTR0365,TrueData Co,Hardware,1109446.76,2022-05-27,2023-05-22,NY,2080109.46,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0366,Meridian Systems,Hardware,1199548.72,2024-01-06,2027-12-16,CA,3532833.33,No,High Liability; High Value,High,Operations
+CTR0367,Summit Analytics,Data & Analytics,1492484.58,2023-07-09,2025-06-28,IL,3069265.28,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0368,Clearline Ltd,MSA,799816.25,2023-07-28,2027-07-07,FL,1796377.45,Yes,High Liability; High Value,High,IT
+CTR0369,Nexus Partners,Hardware,1981437.55,2023-08-02,2024-07-27,CO,2300365.47,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0370,BrightPath Inc,Professional Services,1515623.05,2023-12-19,2025-12-08,GA,1643992.87,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0371,NovaSys,NDA,785756.9,2023-11-16,2025-11-05,TX,1904721.92,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0372,BrightPath Inc,Data & Analytics,120266.91,2024-11-27,2028-11-06,FL,197315.6,Yes,None,Low,Design
+CTR0373,Acme Corp,MSA,997504.73,2024-11-04,2027-10-20,GA,1743099.1,No,High Liability; High Value,High,Engineering
+CTR0374,Clearline Ltd,MSA,513673.52,2025-03-10,2029-02-17,CO,634757.09,No,High Value,Medium,IT
+CTR0375,Pinnacle Tech,Data & Analytics,812829.58,2023-05-17,2026-05-01,FL,884591.73,No,Expiring Soon; High Value,High,Marketing
+CTR0376,Clearline Ltd,Professional Services,911767.48,2025-02-08,2029-01-18,NY,2343405.73,No,High Liability; High Value,High,Design
+CTR0377,Apex Consulting,Professional Services,1598754.64,2024-07-11,2027-06-26,FL,3559332.64,Yes,High Liability; High Value,High,People
+CTR0378,Apex Consulting,Data & Analytics,256146.72,2025-03-14,2027-03-04,MA,630902.52,Yes,None,Low,Operations
+CTR0379,Meridian Systems,Professional Services,1444174.19,2022-08-17,2025-08-01,DE,3982935.87,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0380,Orion Global,NDA,901592.42,2024-12-31,2026-12-21,TX,1847332.06,Yes,High Liability; High Value,High,People
+CTR0381,Nexus Partners,NDA,647279.43,2025-01-31,2029-01-10,WA,1786894.1,Yes,High Liability; High Value,High,People
+CTR0382,DataBridge,Hardware,506418.9,2022-10-28,2023-10-23,FL,925513.88,No,Expiring Soon; High Value,High,Operations
+CTR0383,TrueData Co,NDA,1382275.08,2024-03-09,2026-02-27,DE,3453491.94,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,IT
+CTR0384,Meridian Systems,Professional Services,1833293.49,2022-08-21,2024-08-10,DE,2357468.37,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0385,ClearView AI,SaaS,198193.69,2023-08-05,2025-07-25,WA,289722.77,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0386,Vertex Solutions,Professional Services,999282.7,2024-07-02,2026-06-22,DE,1091119.84,Yes,High Liability; High Value,High,Marketing
+CTR0387,NovaSys,MSA,1481615.32,2024-07-05,2026-06-25,CA,3347864.17,No,High Liability; High Value,High,Finance
+CTR0388,Apex Consulting,MSA,1181363.54,2025-05-14,2027-05-04,NY,2788268.25,Yes,High Liability; High Value,High,Engineering
+CTR0389,Apex Consulting,Hardware,422213.56,2022-05-20,2024-05-09,GA,434446.6,No,Expiring Soon,Medium,Sales
+CTR0390,Summit Analytics,Consulting,103472.04,2022-01-15,2024-12-30,WA,253319.71,No,Expiring Soon,Medium,People
+CTR0391,Summit Analytics,Data & Analytics,1209946.93,2022-06-15,2024-06-04,FL,2513194.95,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0392,NovaSys,MSA,1094336.73,2023-10-02,2025-09-21,DE,1417768.78,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0393,Vertex Solutions,Professional Services,1376977.34,2025-01-28,2026-01-23,MA,3344010.2,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0394,NovaSys,Consulting,1495629.79,2024-06-07,2028-05-17,FL,3989447.05,Yes,High Liability; High Value,High,Sales
+CTR0395,NovaSys,Hardware,1000397.73,2022-05-08,2025-04-22,FL,1828823.66,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0396,Summit Analytics,NDA,1012722.12,2025-01-02,2025-12-28,CO,2319558.12,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0397,Summit Analytics,Consulting,332441.78,2022-11-06,2024-10-26,MA,489324.33,No,Expiring Soon,Medium,Marketing
+CTR0398,ClearView AI,Data & Analytics,1290277.63,2024-12-06,2026-11-26,CA,1670100.02,Yes,High Liability; High Value,High,IT
+CTR0399,ClearView AI,Professional Services,1837514.52,2025-05-12,2026-05-07,NY,3604388.19,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0400,Clearline Ltd,MSA,1040070.73,2023-09-07,2027-08-17,WA,2706089.03,Yes,High Liability; High Value,High,People
+CTR0401,Vertex Solutions,Professional Services,617547.19,2022-01-13,2024-01-03,IL,1778863.06,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0402,Pinnacle Tech,Data & Analytics,537098.63,2023-08-21,2025-08-10,GA,1351418.25,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0403,BrightPath Inc,Professional Services,953716.71,2025-01-29,2028-01-14,CO,1906322.22,Yes,High Liability; High Value,High,IT
+CTR0404,Meridian Systems,SaaS,115297.49,2023-01-24,2024-01-19,CO,130459.81,No,Expiring Soon,Medium,People
+CTR0405,TrueData Co,Data & Analytics,1284264.04,2022-01-22,2025-01-06,CO,3182270.62,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0406,BrightPath Inc,Data & Analytics,1801045.0,2023-05-07,2026-04-21,WA,1902438.05,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0407,Lattice Ops,SaaS,1215809.83,2022-04-05,2025-03-20,FL,2164246.98,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0408,Lattice Ops,Data & Analytics,566818.56,2024-05-17,2027-05-02,GA,641908.42,No,High Value,Medium,Operations
+CTR0409,Orion Global,Consulting,179381.46,2025-01-10,2028-12-20,MA,347651.5,No,None,Low,Finance
+CTR0410,Orion Global,Professional Services,255048.49,2025-02-27,2029-02-06,CO,698207.12,No,None,Low,Marketing
+CTR0411,TrueData Co,SaaS,120801.44,2025-01-23,2026-01-18,CA,143388.41,No,Expiring Soon,Medium,Engineering
+CTR0412,Nexus Partners,Professional Services,691450.99,2024-12-15,2026-12-05,CA,1510553.57,Yes,High Liability; High Value,High,Marketing
+CTR0413,Apex Consulting,SaaS,960107.19,2022-07-18,2023-07-13,IL,2030703.1,No,Expiring Soon; High Liability; High Value,High,Finance
+CTR0414,Clearline Ltd,SaaS,1970555.64,2024-10-31,2025-10-26,IL,3192283.46,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0415,TrueData Co,Consulting,749917.66,2025-02-28,2026-02-23,CO,814529.92,No,Expiring Soon; High Value,High,Marketing
+CTR0416,Lattice Ops,Professional Services,1497554.0,2022-06-28,2026-06-07,CA,1540589.89,No,High Liability; High Value,High,Sales
+CTR0417,Meridian Systems,MSA,1680195.74,2024-09-08,2026-08-29,MA,4669963.3,No,High Liability; High Value,High,Product
+CTR0418,Vertex Solutions,Hardware,776141.57,2023-11-10,2025-10-30,TX,1026158.27,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0419,Acme Corp,Consulting,1106243.58,2023-01-29,2026-01-13,TX,1226819.36,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0420,BrightPath Inc,Hardware,35074.43,2024-09-10,2028-08-20,MA,45032.44,Yes,None,Low,Legal
+CTR0421,Orion Global,Consulting,876098.65,2023-11-09,2024-11-03,IL,1696910.44,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Engineering
+CTR0422,Nexus Partners,Hardware,338866.52,2024-11-06,2026-10-27,TX,1013398.23,Yes,High Liability,Medium,People
+CTR0423,TrueData Co,MSA,686676.45,2023-10-01,2025-09-20,TX,1070727.42,No,Expiring Soon; High Liability; High Value,High,IT
+CTR0424,ClearView AI,NDA,1682057.97,2025-03-18,2027-03-08,WA,4456371.22,No,High Liability; High Value,High,Operations
+CTR0425,Vertex Solutions,Data & Analytics,395730.84,2023-08-28,2025-08-17,CA,578222.99,No,Expiring Soon,Medium,Engineering
+CTR0426,Acme Corp,Professional Services,1004259.65,2023-11-26,2024-11-20,IL,1727971.81,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0427,Lattice Ops,Consulting,724544.38,2022-09-14,2024-09-03,CO,1939234.28,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0428,Orion Global,Data & Analytics,1930370.28,2023-07-20,2024-07-14,DE,4458077.07,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0429,Nexus Partners,Consulting,139086.0,2023-05-03,2025-04-22,MA,365610.94,Yes,Expiring Soon; Auto-Renew Risk,High,Marketing
+CTR0430,Apex Consulting,Data & Analytics,1552594.87,2023-11-20,2027-10-30,NY,2611516.99,Yes,High Liability; High Value,High,Finance
+CTR0431,Meridian Systems,Data & Analytics,751553.89,2022-01-20,2023-01-15,GA,1569221.22,No,Expiring Soon; High Liability; High Value,High,Design
+CTR0432,Nexus Partners,Data & Analytics,1190134.61,2022-11-10,2026-10-20,WA,1345610.04,Yes,High Liability; High Value,High,Marketing
+CTR0433,NovaSys,Hardware,1368130.15,2022-06-05,2024-05-25,FL,3771800.07,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0434,Apex Consulting,MSA,1461684.55,2022-04-02,2023-03-28,MA,1580462.9,No,Expiring Soon; High Liability; High Value,High,Legal
+CTR0435,ClearView AI,Data & Analytics,16052.9,2023-07-17,2024-07-11,FL,42433.11,Yes,Expiring Soon; Auto-Renew Risk,High,Engineering
+CTR0436,Meridian Systems,Data & Analytics,1125412.36,2022-07-24,2023-07-19,TX,2936024.0,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0437,NovaSys,Professional Services,1665569.27,2023-05-10,2026-04-24,NY,4084751.24,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0438,Vertex Solutions,Data & Analytics,1302788.06,2024-01-07,2025-12-27,IL,1930901.95,No,Expiring Soon; High Liability; High Value,High,People
+CTR0439,Apex Consulting,SaaS,266889.0,2024-10-09,2027-09-24,NY,792303.46,No,None,Low,Finance
+CTR0440,DataBridge,SaaS,1795768.06,2023-06-08,2024-06-02,NY,4098095.78,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Design
+CTR0441,DataBridge,MSA,1679120.46,2023-02-09,2027-01-19,DE,2801161.54,Yes,High Liability; High Value,High,Engineering
+CTR0442,Summit Analytics,SaaS,295035.39,2022-04-03,2024-03-23,MA,574107.51,No,Expiring Soon,Medium,Product
+CTR0443,Apex Consulting,Data & Analytics,1965471.82,2024-02-01,2028-01-11,NY,3996989.2,No,High Liability; High Value,High,Legal
+CTR0444,Lattice Ops,Consulting,1258407.13,2023-12-11,2024-12-05,NY,3617033.33,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0445,TrueData Co,Data & Analytics,225543.96,2023-09-29,2025-09-18,MA,361581.77,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0446,Orion Global,Hardware,778373.07,2023-09-01,2024-08-26,GA,1140360.8,No,Expiring Soon; High Liability; High Value,High,Design
+CTR0447,Acme Corp,MSA,1286958.1,2023-01-18,2026-12-28,NY,2357903.09,Yes,High Liability; High Value,High,Marketing
+CTR0448,Meridian Systems,SaaS,1672384.42,2024-01-26,2025-01-20,WA,4350781.38,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0449,DataBridge,MSA,27160.66,2023-01-22,2025-01-11,TX,39063.44,No,Expiring Soon,Medium,Design
+CTR0450,Vertex Solutions,Hardware,1382817.62,2025-02-25,2027-02-15,DE,2811265.11,No,High Liability; High Value,High,Product
+CTR0451,Acme Corp,Professional Services,1949446.89,2023-02-27,2024-02-22,CO,4408346.7,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0452,NovaSys,Professional Services,1092202.57,2022-02-11,2023-02-06,CO,2819974.25,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0453,BrightPath Inc,MSA,29864.26,2022-08-26,2025-08-10,FL,50430.86,No,Expiring Soon,Medium,People
+CTR0454,DataBridge,Professional Services,508438.63,2024-05-02,2026-04-22,CA,819254.13,No,Expiring Soon; High Value,High,Legal
+CTR0455,Acme Corp,Hardware,1862879.98,2023-09-09,2026-08-24,IL,4225750.97,No,High Liability; High Value,High,IT
+CTR0456,Vertex Solutions,NDA,1111435.85,2022-10-30,2024-10-19,TX,2285648.61,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Product
+CTR0457,Lattice Ops,NDA,1369842.13,2022-06-24,2025-06-08,DE,2836616.0,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0458,Pinnacle Tech,Hardware,618608.27,2024-09-19,2025-09-14,NY,894829.54,No,Expiring Soon; High Value,High,Sales
+CTR0459,Vertex Solutions,Professional Services,433340.99,2024-06-09,2028-05-19,CA,1223693.0,No,High Liability,Medium,Finance
+CTR0460,Summit Analytics,SaaS,1529812.62,2023-02-13,2025-02-02,WA,3830949.65,No,Expiring Soon; High Liability; High Value,High,Sales
+CTR0461,DataBridge,Professional Services,956444.86,2023-05-05,2025-04-24,FL,2284745.92,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0462,TrueData Co,Professional Services,1236090.01,2025-01-30,2028-01-15,DE,1884559.74,Yes,High Liability; High Value,High,Legal
+CTR0463,TrueData Co,Consulting,1017917.35,2022-09-05,2023-08-31,MA,2044735.12,No,Expiring Soon; High Liability; High Value,High,Engineering
+CTR0464,Orion Global,NDA,510049.45,2023-10-30,2024-10-24,DE,1182698.32,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Sales
+CTR0465,Pinnacle Tech,NDA,1174651.07,2025-03-30,2026-03-25,TX,1783612.49,No,Expiring Soon; High Liability; High Value,High,People
+CTR0466,Nexus Partners,SaaS,595897.03,2023-02-18,2025-02-07,WA,641412.75,Yes,Expiring Soon; Auto-Renew Risk; High Value,High,People
+CTR0467,BrightPath Inc,NDA,705438.32,2023-04-21,2025-04-10,CA,1323170.27,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Marketing
+CTR0468,ClearView AI,Professional Services,1511083.32,2023-10-22,2026-10-06,WA,3778067.39,No,High Liability; High Value,High,IT
+CTR0469,ClearView AI,NDA,233582.34,2022-09-03,2025-08-18,GA,643997.88,No,Expiring Soon,Medium,People
+CTR0470,Summit Analytics,Professional Services,1495592.86,2025-02-17,2026-02-12,DE,4233249.06,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0471,NovaSys,Consulting,277559.94,2024-04-28,2027-04-13,WA,629638.3,Yes,None,Low,Design
+CTR0472,Clearline Ltd,Consulting,1536202.35,2022-01-01,2023-12-22,GA,2912009.51,No,Expiring Soon; High Liability; High Value,High,Marketing
+CTR0473,Orion Global,Hardware,1713823.24,2024-04-22,2027-04-07,CA,3707016.29,Yes,High Liability; High Value,High,Operations
+CTR0474,Meridian Systems,NDA,952726.88,2023-01-25,2025-01-14,WA,2266778.23,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Legal
+CTR0475,Acme Corp,NDA,993430.62,2024-02-05,2026-01-25,DE,1352579.81,No,Expiring Soon; High Liability; High Value,High,Product
+CTR0476,Clearline Ltd,Data & Analytics,1217478.89,2022-05-03,2023-04-28,CA,2017708.57,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Finance
+CTR0477,DataBridge,Professional Services,437824.88,2025-01-09,2028-12-19,FL,647741.8,Yes,None,Low,Marketing
+CTR0478,Orion Global,NDA,956736.45,2024-10-15,2027-09-30,FL,2263606.81,Yes,High Liability; High Value,High,Legal
+CTR0479,BrightPath Inc,Hardware,203245.45,2023-10-30,2025-10-19,CA,209791.93,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0480,Vertex Solutions,Data & Analytics,1610428.78,2025-04-27,2029-04-06,CO,4124345.5,Yes,High Liability; High Value,High,Sales
+CTR0481,Summit Analytics,Hardware,953527.6,2024-03-12,2027-02-25,DE,2458334.49,Yes,High Liability; High Value,High,Marketing
+CTR0482,BrightPath Inc,Professional Services,1601618.81,2024-03-08,2026-02-26,FL,3977997.79,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0483,Acme Corp,NDA,1909835.2,2024-07-19,2025-07-14,GA,3967051.63,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,People
+CTR0484,BrightPath Inc,NDA,135296.02,2023-03-04,2027-02-11,DE,160258.68,No,None,Low,Finance
+CTR0485,Lattice Ops,MSA,1300222.95,2022-09-04,2026-08-14,WA,3677089.89,No,High Liability; High Value,High,People
+CTR0486,DataBridge,Data & Analytics,975648.98,2023-09-04,2026-08-19,WA,2413834.54,Yes,High Liability; High Value,High,Legal
+CTR0487,TrueData Co,MSA,1464041.52,2023-04-04,2027-03-14,TX,2598118.26,No,High Liability; High Value,High,Operations
+CTR0488,Nexus Partners,Professional Services,800569.82,2022-10-09,2026-09-18,CO,2068847.3,No,High Liability; High Value,High,Engineering
+CTR0489,ClearView AI,Professional Services,81992.19,2024-04-01,2026-03-22,DE,243922.09,Yes,Expiring Soon; Auto-Renew Risk,High,IT
+CTR0490,Meridian Systems,Consulting,950408.18,2025-04-06,2026-04-01,IL,1883030.04,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0491,TrueData Co,MSA,153135.55,2023-03-29,2025-03-18,TX,307377.27,No,Expiring Soon,Medium,Operations
+CTR0492,DataBridge,NDA,1287207.18,2022-10-18,2026-09-27,DE,3503156.04,No,High Liability; High Value,High,People
+CTR0493,Clearline Ltd,Professional Services,1690472.59,2022-04-09,2025-03-24,WA,4384134.16,No,Expiring Soon; High Liability; High Value,High,Operations
+CTR0494,ClearView AI,NDA,1612122.49,2024-12-07,2027-11-22,CO,1618548.1,No,High Liability; High Value,High,Sales
+CTR0495,Nexus Partners,Data & Analytics,1172900.86,2024-07-24,2026-07-14,TX,3173761.05,No,High Liability; High Value,High,Operations
+CTR0496,Pinnacle Tech,MSA,1091526.49,2022-11-12,2023-11-07,FL,2343384.64,Yes,Expiring Soon; High Liability; Auto-Renew Risk; High Value,High,Operations
+CTR0497,Nexus Partners,Professional Services,1466056.77,2023-04-21,2027-03-31,CO,2902581.52,No,High Liability; High Value,High,Operations
+CTR0498,DataBridge,SaaS,260530.76,2023-04-17,2026-04-01,GA,384899.17,Yes,Expiring Soon; Auto-Renew Risk,High,Marketing
+CTR0499,Pinnacle Tech,Consulting,23054.0,2022-01-23,2025-01-07,DE,48823.32,Yes,Expiring Soon; Auto-Renew Risk,High,Legal
+CTR0500,ClearView AI,Data & Analytics,199960.17,2024-10-22,2025-10-17,MA,383700.31,Yes,Expiring Soon; Auto-Renew Risk,High,Finance
