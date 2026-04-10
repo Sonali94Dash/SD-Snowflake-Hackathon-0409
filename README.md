@@ -1,5 +1,4 @@
 # SD-Snowflake-Hackathon-0409
-# SD-Snowflake-Churn-Hackathon
 
 ## Customer Churn Classification with SHAP Explainability
 **Built by Sonali Dash** | CSEGSA Hackathon 2026
