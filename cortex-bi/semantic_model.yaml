@@ -1,0 +1,379 @@
+name: finance_economics_model
+description: >
+  Comprehensive semantic model for US financial indicators, economic data, and employment statistics.
+
+tables:
+  - name: economic_indicators
+    description: >
+      US financial and economic indicators time series from Federal Reserve, BEA, BLS, Treasury.
+      Contains GDP, CPI, inflation, interest rates, federal funds rate, SOFR, housing starts,
+      commercial paper, money supply, treasury yields. Data covers 1947 to present.
+    base_table:
+      database: SNOWFLAKE_PUBLIC_DATA_FREE
+      schema: PUBLIC_DATA_FREE
+      table: FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES
+    dimensions:
+      - name: geo_id
+        description: Geographic identifier such as country/USA or state codes
+        expr: GEO_ID
+        data_type: VARCHAR
+        synonyms:
+          - location
+          - region
+          - geography
+          - state
+          - country
+      - name: variable
+        description: Unique identifier code for the economic indicator variable
+        expr: VARIABLE
+        data_type: VARCHAR
+      - name: variable_name
+        description: >
+          Human-readable name of the economic indicator. Use ILIKE for filtering.
+        expr: VARIABLE_NAME
+        data_type: VARCHAR
+        synonyms:
+          - indicator
+          - metric
+          - series
+          - GDP
+          - gross domestic product
+          - CPI
+          - consumer price index
+          - unemployment
+          - inflation
+          - interest rate
+          - federal funds rate
+          - SOFR
+          - treasury
+          - housing
+          - money supply
+          - retail sales
+      - name: unit
+        description: Unit of measurement such as Dollars, Percent, Index, Level, Count
+        expr: UNIT
+        data_type: VARCHAR
+    time_dimensions:
+      - name: date
+        description: Date of the observation
+        expr: DATE
+        data_type: DATE
+        synonyms:
+          - period
+          - time
+          - year
+          - month
+          - quarter
+    measures:
+      - name: value
+        description: The reported numeric value for the indicator
+        expr: VALUE
+        data_type: FLOAT
+        default_aggregation: avg
+        synonyms:
+          - amount
+          - reading
+          - number
+          - figure
+      - name: record_count
+        description: Count of records
+        expr: "1"
+        data_type: NUMBER
+        default_aggregation: sum
+
+  - name: economic_attributes
+    description: >
+      Metadata for economic indicator variables. Describes report source, measure type, industry, frequency.
+    base_table:
+      database: SNOWFLAKE_PUBLIC_DATA_FREE
+      schema: PUBLIC_DATA_FREE
+      table: FINANCIAL_ECONOMIC_INDICATORS_ATTRIBUTES
+    unique_keys:
+      - columns:
+          - variable
+    dimensions:
+      - name: variable
+        description: Unique identifier for the variable
+        expr: VARIABLE
+        data_type: VARCHAR
+      - name: variable_name
+        description: Human-readable name of the variable
+        expr: VARIABLE_NAME
+        data_type: VARCHAR
+      - name: release_name
+        description: The report or data release
+        expr: RELEASE_NAME
+        data_type: VARCHAR
+        synonyms:
+          - report
+          - dataset
+          - release
+          - survey
+      - name: release_source
+        description: Publishing organization such as BLS, BEA, Federal Reserve
+        expr: RELEASE_SOURCE
+        data_type: VARCHAR
+        synonyms:
+          - source
+          - publisher
+          - agency
+      - name: measure
+        description: What is being measured
+        expr: MEASURE
+        data_type: VARCHAR
+      - name: industry
+        description: Industry or sector
+        expr: INDUSTRY
+        data_type: VARCHAR
+        synonyms:
+          - sector
+      - name: frequency
+        description: Reporting frequency - Monthly, Quarterly, Annual, Daily
+        expr: FREQUENCY
+        data_type: VARCHAR
+      - name: unit
+        description: Unit of measurement
+        expr: UNIT
+        data_type: VARCHAR
+      - name: seasonally_adjusted
+        description: Whether seasonally adjusted
+        expr: SEASONALLY_ADJUSTED
+        data_type: VARCHAR
+      - name: measurement_type
+        description: How the variable was measured
+        expr: MEASUREMENT_TYPE
+        data_type: VARCHAR
+
+  - name: employment_data
+    description: >
+      BLS employment time series from 1939 to present with 22M+ records.
+      Covers JOLTS job openings, hires, quits, separations across industries.
+      Variable names follow pattern: JOLTS: Hires, Total nonfarm, All size classes, Seasonally adjusted, Monthly, Level.
+    base_table:
+      database: SNOWFLAKE_PUBLIC_DATA_FREE
+      schema: PUBLIC_DATA_FREE
+      table: BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_TIMESERIES
+    dimensions:
+      - name: geo_id
+        description: Geographic identifier
+        expr: GEO_ID
+        data_type: VARCHAR
+        synonyms:
+          - location
+          - state
+          - region
+      - name: variable
+        description: Unique identifier for the employment variable
+        expr: VARIABLE
+        data_type: VARCHAR
+      - name: variable_name
+        description: >
+          Human-readable name. Pattern: JOLTS: [Measure], [Industry], [Size], [Seasonal], [Frequency], [Unit].
+        expr: VARIABLE_NAME
+        data_type: VARCHAR
+        synonyms:
+          - indicator
+          - employment metric
+          - hires
+          - job openings
+          - quits
+          - separations
+          - JOLTS
+          - nonfarm payrolls
+    time_dimensions:
+      - name: date
+        description: Date of the observation
+        expr: DATE
+        data_type: DATE
+        synonyms:
+          - period
+          - time
+          - year
+          - month
+    measures:
+      - name: value
+        description: The reported employment value
+        expr: VALUE
+        data_type: FLOAT
+        default_aggregation: avg
+        synonyms:
+          - amount
+          - count
+          - number
+          - jobs
+      - name: record_count
+        description: Count of records
+        expr: "1"
+        data_type: NUMBER
+        default_aggregation: sum
+
+  - name: employment_attributes
+    description: >
+      Metadata for BLS employment variables. Describes BLS report, measure type, industry, frequency, establishment size.
+    base_table:
+      database: SNOWFLAKE_PUBLIC_DATA_FREE
+      schema: PUBLIC_DATA_FREE
+      table: BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES
+    unique_keys:
+      - columns:
+          - variable
+    dimensions:
+      - name: variable
+        description: Unique identifier for the variable
+        expr: VARIABLE
+        data_type: VARCHAR
+      - name: variable_name
+        description: Human-readable name
+        expr: VARIABLE_NAME
+        data_type: VARCHAR
+      - name: seasonally_adjusted
+        description: Whether seasonally adjusted
+        expr: SEASONALLY_ADJUSTED
+        data_type: VARCHAR
+      - name: frequency
+        description: Frequency - Monthly, Quarterly, Annual
+        expr: FREQUENCY
+        data_type: VARCHAR
+      - name: unit
+        description: Unit - Level, Percent
+        expr: UNIT
+        data_type: VARCHAR
+      - name: report
+        description: BLS report - JOLTS, CES, QCEW, LAU, CPS, OEWS
+        expr: REPORT
+        data_type: VARCHAR
+        synonyms:
+          - survey
+          - dataset
+      - name: measure
+        description: Statistic type - Hires, Quits, Job openings, Total separations
+        expr: MEASURE
+        data_type: VARCHAR
+      - name: industry
+        description: Industry - Total nonfarm, Manufacturing, Healthcare, Construction
+        expr: INDUSTRY
+        data_type: VARCHAR
+        synonyms:
+          - sector
+      - name: establishment_size
+        description: Size category - All size classes, 1 to 9 employees, etc.
+        expr: ESTABLISHMENT_SIZE
+        data_type: VARCHAR
+
+relationships:
+  - name: econ_to_attributes
+    left_table: economic_indicators
+    right_table: economic_attributes
+    relationship_columns:
+      - left_column: variable
+        right_column: variable
+
+  - name: employment_to_attributes
+    left_table: employment_data
+    right_table: employment_attributes
+    relationship_columns:
+      - left_column: variable
+        right_column: variable
+
+verified_queries:
+  - name: latest_indicators
+    question: "Show me the latest 10 economic indicators with their values"
+    sql: >
+      SELECT VARIABLE_NAME, GEO_ID, UNIT, DATE, VALUE
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES
+      WHERE DATE = (SELECT MAX(DATE) FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES)
+      ORDER BY VALUE DESC NULLS LAST
+      LIMIT 10
+
+  - name: gdp_trend
+    question: "What is the GDP trend over the last 5 years?"
+    sql: >
+      SELECT DATE, VALUE, VARIABLE_NAME
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES
+      WHERE VARIABLE_NAME ILIKE '%gross domestic product%'
+        AND UNIT ILIKE '%Dollar%'
+      ORDER BY DATE DESC
+      LIMIT 50
+
+  - name: cpi_data
+    question: "Show CPI data"
+    sql: >
+      SELECT DATE, VALUE, VARIABLE_NAME, UNIT
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES
+      WHERE VARIABLE_NAME ILIKE '%CPI%'
+      ORDER BY DATE DESC
+      LIMIT 30
+
+  - name: federal_funds_rate
+    question: "What is the federal funds rate?"
+    sql: >
+      SELECT DATE, VALUE, VARIABLE_NAME
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES
+      WHERE VARIABLE_NAME ILIKE '%federal funds%rate%'
+      ORDER BY DATE DESC
+      LIMIT 20
+
+  - name: jolts_hires
+    question: "Show JOLTS hires data by industry"
+    sql: >
+      SELECT a.INDUSTRY, AVG(t.VALUE) as AVG_HIRES, MAX(t.DATE) as LATEST_DATE
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_TIMESERIES t
+      JOIN SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES a
+        ON t.VARIABLE = a.VARIABLE
+      WHERE a.MEASURE = 'Hires'
+        AND a.FREQUENCY = 'Monthly'
+        AND a.UNIT = 'Level'
+        AND t.DATE >= DATEADD(year, -1, CURRENT_DATE())
+      GROUP BY a.INDUSTRY
+      ORDER BY AVG_HIRES DESC
+      LIMIT 20
+
+  - name: job_openings_trend
+    question: "Show job openings trend"
+    sql: >
+      SELECT t.DATE, t.VALUE, t.VARIABLE_NAME
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_TIMESERIES t
+      WHERE t.VARIABLE_NAME ILIKE '%job openings%total nonfarm%seasonally adjusted%monthly%level%'
+      ORDER BY t.DATE DESC
+      LIMIT 60
+
+  - name: quits_by_industry
+    question: "Which industries have the highest quit rates?"
+    sql: >
+      SELECT a.INDUSTRY, AVG(t.VALUE) as AVG_QUITS
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_TIMESERIES t
+      JOIN SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES a
+        ON t.VARIABLE = a.VARIABLE
+      WHERE a.MEASURE = 'Quits'
+        AND a.FREQUENCY = 'Monthly'
+        AND a.UNIT = 'Level'
+        AND t.DATE >= DATEADD(year, -1, CURRENT_DATE())
+      GROUP BY a.INDUSTRY
+      ORDER BY AVG_QUITS DESC
+      LIMIT 15
+
+  - name: indicator_by_source
+    question: "How many indicators does each source agency publish?"
+    sql: >
+      SELECT RELEASE_SOURCE, COUNT(DISTINCT VARIABLE) as NUM_INDICATORS
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.FINANCIAL_ECONOMIC_INDICATORS_ATTRIBUTES
+      GROUP BY RELEASE_SOURCE
+      ORDER BY NUM_INDICATORS DESC
+      LIMIT 10
+
+  - name: bls_reports
+    question: "Which BLS reports have the most data?"
+    sql: >
+      SELECT REPORT, COUNT(DISTINCT VARIABLE) as NUM_VARIABLES
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES
+      GROUP BY REPORT
+      ORDER BY NUM_VARIABLES DESC
+
+  - name: treasury_yields
+    question: "Show treasury yield data"
+    sql: >
+      SELECT DATE, VALUE, VARIABLE_NAME
+      FROM SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE.FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES
+      WHERE VARIABLE_NAME ILIKE '%treasury%yield%'
+      ORDER BY DATE DESC
+      LIMIT 30
