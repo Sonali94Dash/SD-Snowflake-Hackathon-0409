@@ -1,5 +1,5 @@
 # The Invisible Workforce Signal
-**Analytics Prompt 01 | Built by Sonali & Mekala**
+**Analytics Prompt 01 | Built by Sonali**
 
 Streamlit dashboard that calculates attrition risk scores and classifies employees into High/Medium/Low tiers.
 
